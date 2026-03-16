@@ -1,14 +1,20 @@
+aid: regulatory-templates
 name: Regulatory Templates
 description: Pre-built templates and frameworks for meeting regulatory compliance
   requirements across various industries and jurisdictions. Proper implementation
   reduces legal and operational risk while supporting audit readiness.
-url: null
+type: Index
+url: https://raw.githubusercontent.com/api-evangelist/regulatory-templates/refs/heads/main/apis.yml
 tags:
 - Compliance
 - Regulatory
 - Templates
 - Governance
-created: '2025'
-modified: '2025'
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
 common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
