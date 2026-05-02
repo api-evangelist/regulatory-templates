@@ -1,0 +1,97 @@
+vocabulary:
+  name: Regulatory Templates Vocabulary
+  description: Terminology used in compliance template frameworks, policy libraries, and the automation platforms that help organizations implement regulatory requirements through pre-built controls and workflows.
+  version: '1.0'
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  tags:
+    - Compliance
+    - Governance
+    - Policy Templates
+    - Regulatory
+
+  terms:
+
+    - term: Audit Trail
+      definition: A chronological record of activities, events, or changes that provides documentary evidence of compliance with regulatory requirements. Compliance automation platforms generate and maintain audit trails through their APIs.
+      tags:
+        - Audit
+        - Evidence
+
+    - term: Control
+      definition: A policy, procedure, or technical safeguard implemented to mitigate risk and meet compliance requirements. Compliance frameworks like SOC 2 and ISO 27001 define specific control objectives that organizations must implement.
+      tags:
+        - Compliance
+        - Risk Management
+
+    - term: Control Library
+      definition: A curated collection of pre-built compliance controls mapped to regulatory frameworks. Compliance platforms like OneTrust, Drata, and Vanta provide control libraries that accelerate implementation of compliance programs.
+      tags:
+        - Compliance
+        - Templates
+
+    - term: Evidence Collection
+      definition: The process of gathering and documenting proof that compliance controls are functioning effectively. Automated compliance platforms use API integrations to continuously collect evidence from cloud providers, security tools, and other systems.
+      tags:
+        - Audit
+        - Compliance
+
+    - term: Framework Mapping
+      definition: The cross-referencing of controls and requirements between different compliance frameworks (e.g., SOC 2 to ISO 27001 to HIPAA) to enable organizations to satisfy multiple frameworks simultaneously with shared evidence.
+      tags:
+        - Compliance
+        - Templates
+
+    - term: GDPR
+      definition: General Data Protection Regulation - the EU's comprehensive data privacy law that organizations must comply with when processing personal data of EU residents. Compliance platforms provide GDPR-specific templates for data processing agreements, consent management, and data subject request workflows.
+      tags:
+        - Data Privacy
+        - EU Regulation
+
+    - term: HIPAA
+      definition: Health Insurance Portability and Accountability Act - US federal law governing the privacy and security of protected health information. Compliance template platforms provide pre-built HIPAA control frameworks for covered entities and business associates.
+      tags:
+        - Healthcare
+        - US Regulation
+
+    - term: ISO 27001
+      definition: International standard for information security management systems (ISMS). Compliance platforms provide ISO 27001 template policies, control implementations, and audit preparation resources to help organizations achieve certification.
+      tags:
+        - Information Security
+        - International Standard
+
+    - term: PCI DSS
+      definition: Payment Card Industry Data Security Standard - security requirements for organizations processing, storing, or transmitting payment card data. Compliance platforms provide PCI DSS templates for scoping, control implementation, and reporting.
+      tags:
+        - Financial Services
+        - Security Standard
+
+    - term: Policy Template
+      definition: A pre-written document that organizations can customize to establish their compliance policies (e.g., acceptable use, data retention, incident response). Compliance platforms provide libraries of policy templates mapped to specific regulatory frameworks.
+      tags:
+        - Documentation
+        - Templates
+
+    - term: Questionnaire Template
+      definition: Pre-built assessment questionnaires used to evaluate vendor security posture, data processing practices, or compliance status. Used in third-party risk management workflows integrated into compliance platforms via API.
+      tags:
+        - Assessment
+        - Templates
+
+    - term: Risk Assessment Template
+      definition: Structured frameworks for identifying, evaluating, and documenting organizational risks in the context of compliance requirements. Templates align with specific regulatory frameworks and standards for audit acceptance.
+      tags:
+        - Risk Management
+        - Templates
+
+    - term: SOC 2
+      definition: System and Organization Controls 2 - an auditing standard developed by the AICPA for service organizations, covering security, availability, processing integrity, confidentiality, and privacy Trust Services Criteria. One of the most commonly sought compliance certifications for SaaS companies.
+      tags:
+        - Audit Standard
+        - SaaS Compliance
+
+    - term: Trust Services Criteria
+      definition: The criteria used in SOC 2 audits developed by the AICPA, covering five principles - security (CC), availability (A), processing integrity (PI), confidentiality (C), and privacy (P). Compliance platform templates map controls to specific Trust Services Criteria.
+      tags:
+        - Audit Standard
+        - SOC 2

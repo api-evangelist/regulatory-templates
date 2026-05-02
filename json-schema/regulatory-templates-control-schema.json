@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/regulatory-templates/json-schema/regulatory-templates-control-schema.json",
+  "title": "Compliance Control",
+  "description": "Schema for a compliance control mapped to one or more regulatory frameworks, as used by compliance automation platforms.",
+  "type": "object",
+  "required": ["controlId", "name", "domain", "frameworks"],
+  "properties": {
+    "controlId": {
+      "type": "string",
+      "description": "Unique identifier for the compliance control."
+    },
+    "name": {
+      "type": "string",
+      "description": "Short name or title of the control."
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of what the control requires."
+    },
+    "domain": {
+      "type": "string",
+      "description": "Compliance domain this control falls under (e.g., 'Access Control', 'Encryption', 'Incident Response')."
+    },
+    "frameworks": {
+      "type": "array",
+      "description": "Compliance frameworks this control satisfies.",
+      "items": {
+        "type": "object",
+        "required": ["frameworkId", "controlReference"],
+        "properties": {
+          "frameworkId": {
+            "type": "string",
+            "description": "Framework identifier (e.g., 'SOC2', 'ISO27001', 'HIPAA', 'GDPR', 'PCIDSS').",
+            "enum": ["SOC2", "ISO27001", "HIPAA", "GDPR", "PCIDSS", "CCPA", "NIST CSF", "FedRAMP", "CMMC", "CIS Controls"]
+          },
+          "controlReference": {
+            "type": "string",
+            "description": "Framework-specific control reference (e.g., 'CC6.1', 'A.9.4.1', '164.312(a)(1)')."
+          },
+          "requirementText": {
+            "type": "string",
+            "description": "The verbatim requirement text from the framework."
+          }
+        }
+      }
+    },
+    "implementationGuidance": {
+      "type": "string",
+      "description": "Guidance on how to implement this control."
+    },
+    "evidenceTypes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Types of evidence that can satisfy this control (e.g., 'Screenshot', 'Policy Document', 'Log Export', 'API Integration')."
+    },
+    "automatable": {
+      "type": "boolean",
+      "description": "Whether evidence collection for this control can be automated via API integration."
+    },
+    "status": {
+      "type": "string",
+      "description": "Current implementation status.",
+      "enum": ["Not Started", "In Progress", "Implemented", "Needs Review", "Failing"]
+    },
+    "owner": {
+      "type": "string",
+      "description": "Team or individual responsible for this control."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Tags for categorization."
+    }
+  }
+}
