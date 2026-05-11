@@ -98,6 +98,12 @@ common:
   - type: Examples
     url: https://raw.githubusercontent.com/api-evangelist/regulatory-templates/refs/heads/main/examples/regulatory-templates-soc2-control-example.json
     name: SOC 2 Compliance Control Example
+  - type: Integrations
+    url: https://usercentrics.com/integrations/
+integrations:
+  - name: WordPress
+  - name: Wix
+  - name: Shopify
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
