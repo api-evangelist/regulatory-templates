@@ -71,6 +71,8 @@ apis:
       - type: Documentation
         url: https://www.scrut.io/
 common:
+  - type: DomainSecurity
+    url: security/regulatory-templates-domain-security.yml
   - type: Website
     url: https://usercentrics.com/knowledge-hub/regulatory-compliance-platform/
     name: Best Regulatory Compliance Platforms 2026
