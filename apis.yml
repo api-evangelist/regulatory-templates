@@ -1,5 +1,6 @@
 aid: regulatory-templates
 name: Regulatory Templates
+kind: topic
 description: Pre-built templates, frameworks, and policy libraries for meeting regulatory compliance requirements across industries and jurisdictions including GDPR, HIPAA, SOC 2, ISO 27001, PCI DSS, and more. Compliance platforms and API governance tools provide template-driven approaches to accelerate audit readiness, evidence collection, and risk management workflows.
 type: Index
 url: https://raw.githubusercontent.com/api-evangelist/regulatory-templates/refs/heads/main/apis.yml
