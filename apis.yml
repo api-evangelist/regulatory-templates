@@ -1,4 +1,17 @@
 aid: regulatory-templates
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regulatory-templates.png
 name: Regulatory Templates
 kind: topic
 description: Pre-built templates, frameworks, and policy libraries for meeting regulatory compliance requirements across industries and jurisdictions including GDPR, HIPAA, SOC 2, ISO 27001, PCI DSS, and more. Compliance platforms and API governance tools provide template-driven approaches to accelerate audit readiness, evidence collection, and risk management workflows.
